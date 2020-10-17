@@ -5,7 +5,6 @@ import {
   Route
 } from "react-router-dom";
 import './App.css';
-import Header from './components/Header/Header';
 import Home from './components/Home/Home';
 import Login from './components/Login/Login';
 import NotFound from './components/NotFound/NotFound';
@@ -20,7 +19,6 @@ function App() {
     <UserContext.Provider value = {[loggedInUser, setLoggedInUser]}>
     <div className = "App">
     <Router>
-    <Header />
         <Switch>
           <Route path="/home">
           <Home />
