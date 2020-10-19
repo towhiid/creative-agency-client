@@ -1,8 +1,8 @@
 import React from 'react';
 import { Button, Nav, Navbar } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
-import HeaderMain from '../Home/HeaderMain/HeaderMain';
 import './Header.css';
+import HeaderMain from './HeaderMain/HeaderMain';
 
 const Header = () => {
     return (

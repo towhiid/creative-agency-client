@@ -1,0 +1,10 @@
+.slider{
+    position: relative;
+    height: 100%;
+    background-color: #1d203a;
+    overflow: hidden;
+}
+.slider img{
+    width: 30%;
+    height: 300px;
+}

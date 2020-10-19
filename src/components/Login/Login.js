@@ -40,7 +40,9 @@ const Login = () => {
             <Navbar>
             <Navbar.Brand className='brand mx-auto' href="/"><img style= {{width:"100px", height:"40px"}} src="https://i.ibb.co/XZgxpn0/logo.png" alt=""/></Navbar.Brand>
             </Navbar>
+
         <div  onClick = {handleGoogleSignIn} style = {{paddingTop:"100px" }}>
+                <h5 className = "text-center">Login With</h5>
                 <img src="https://i.ibb.co/nRx7jF4/google.png" alt=""  width = "30"/>&nbsp;&nbsp;
                 <button><h6>Continue With Google</h6></button>
         </div>

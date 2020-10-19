@@ -1,7 +1,7 @@
 .header {
   position: relative;
   height: 100%;
-  background-image: linear-gradient(#ff9f0f, #ff9f0f);
+  background-color:  #fbd062;
   overflow: hidden;
 }
 
@@ -10,5 +10,4 @@ svg {
   bottom: 0;
   width: 150%;
   height: 10vw;
-  /* set height to pixels if you want angle to change with screen width */
 }
