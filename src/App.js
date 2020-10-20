@@ -5,6 +5,8 @@ import {
   Route
 } from "react-router-dom";
 import './App.css';
+import AddService from './components/AddService/AddService';
+import Dashboard from './components/Dashboard/Dashboard';
 import Home from './components/Home/Home';
 import Login from './components/Login/Login';
 import NotFound from './components/NotFound/NotFound';
@@ -26,10 +28,13 @@ function App() {
           <Route path="/login">
             <Login />
           </Route>
+          <Route path="/addservice">
+            <AddService />
+          </Route>
           
-          {/* <PrivateRoute path="/admin">
-            <Admin></Admin>
-          </PrivateRoute> */}
+          <PrivateRoute path="/dashboard">
+            <Dashboard></Dashboard>
+          </PrivateRoute>
          
           <Route exact path="/">
             <Home />
