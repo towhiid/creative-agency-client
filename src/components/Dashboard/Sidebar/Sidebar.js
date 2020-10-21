@@ -7,17 +7,17 @@ const Sidebar = () => {
         <div className="sidebar d-flex flex-column justify-content-between col-md-2 py-5 px-4" style={{height:"100vh"}}>
         <ul className="list-unstyled">
             <li>
-                <Link to="/doctor/dashboard" className="text-dark">
+                <Link to="/order" className="text-dark">
                     <span>Order</span> 
                 </Link>
             </li>
             <li>
-                <Link to="/doctor/appointment" className="text-dark">
+                <Link to="/services" className="text-dark">
                      <span>Service List</span> 
                 </Link>
             </li>
             <li>
-                <Link to="/doctor/patients" className="text-dark">
+                <Link to="/review" className="text-dark">
                      <span>Review</span>
                 </Link>
             </li>
@@ -27,7 +27,7 @@ const Sidebar = () => {
                 </Link>
             </li>
             <li>
-                <Link to="/doctor/setting" className="text-dark" >
+                <Link to="/admin" className="text-dark" >
                    <span>Make Admin</span>
                 </Link>
             </li>
